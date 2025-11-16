@@ -15,4 +15,9 @@ public class OneDay {
    set the main branch using git branch -M main,
     and finally upload everything to GitHub with git push -u origin main.
 
+
+
+    After editing a file, run git add . to stage the changes, then use git commit -m "Updated file" to commit them, and finally run git push to upload the updated changes to GitHub.
+    
     */
+
