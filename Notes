@@ -1,3 +1,5 @@
 package is important , all the class should lie in that package ;
 
 then main method is neccasary 
+
+Main class is also neccasary because code is cleaner 
