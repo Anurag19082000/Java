@@ -3,3 +3,39 @@ package is important , all the class should lie in that package ;
 then main method is neccasary 
 
 Main class is also neccasary because code is cleaner 
+
+git commands
+Cool 👍 since you’ve already cloned the repo and made local changes, pushing is just a few clean steps. I’ll keep this practical + interview-safe.
+
+1️⃣ Check what you changed
+git status
+
+
+You’ll see something like:
+
+modified:   src/Main.java
+
+2️⃣ Add changes to staging
+
+To add all changed files:
+
+git add .
+
+
+Or a specific file:
+
+git add src/Main.java
+
+3️⃣ Commit your changes
+git commit -m "Implemented animal interface and pig class"
+
+
+👉 Message should be short + meaningful
+
+4️⃣ Push to remote repository
+git push origin main
+
+
+If your branch is master:
+
+git push origin master
